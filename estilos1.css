@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+/* Ejemplo de flex box */
+.flex-container{
+    display: flex;
+    height: 400px;
+    /* este estilo hara que se acomode en forma de columna
+    o en fila, de menor a mayor y viceversa */
+    /* flex-direction: row; */
+    /* este estilo lo que hara es que se al momento de que 
+    quede muy junto haga un salto de linea lo que hara que 
+    se ve mejor con el wrap  */
+    flex-wrap: wrap;
+    /* felx flow une ambas propiedades tanto wrp y flex */
+    /* flex-flow: row; */
+    /* forma de alinear */
+    /* justify-content: space-around; */
+    /* Alinea y deja un espacio entre los elementos */
+    align-content: baseline;
+
+    background-color: beige;
+    padding-bottom: 10px;
+    border: 2px solid salmon;
+} 
+
+/* Estos div se tendran color y una tamaño establecido
+    un margen y el texto va a estar alineado que en este caso
+    son los numeros, tambien el tamaño de la fuente*/
+.flex-container div{
+    background-color: slateblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 40px;
+    border: 2px;
+}

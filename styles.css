@@ -1,0 +1,40 @@
+* {
+    background-color: blanchedalmond;
+}
+/* Selector de id */
+body , html{
+    /* Se le pone color tanto a el cuerpo como al html,
+     se seleciona para agregar mas etiquetas con comas 
+     asi se hace en conjunto */
+    background-color: antiquewhite;
+}
+#titulo {
+    color: rgba(102, 51, 153, 0.714)
+}
+/* Selector de clase */
+.texto {
+    cursor:grabbing;
+}
+/* Se ve afectado todo a la vez ya que la etiqueta tiene el mismo selector */
+a {
+    color: blue;
+}
+#anchor {
+    color: brown;
+}
+form>fieldset>label{
+    /* Se cambian los estilos en el form que a su vez esta en el fieldset
+    y hare el cambio en los label */
+    background-color: red;
+}
+.nav {
+    background-color: blue;
+}
+.nav>a{
+    color: white;
+    background-color: blueviolet;
+}
+.nav>a:last-child{
+    /* se agrega a la ultima etiqueta a */
+    background-color: aqua;
+}

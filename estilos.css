@@ -1,0 +1,11 @@
+table {
+    background-color: #2b2727a6;
+}
+table tr:nth-child(even) {
+    /* aven como valor e cada uno o los pares */
+    background-color: rgba(233, 16, 16, 0.814);
+}
+table tr:nth-child(odd){
+    /* APlica estilos a los que son nones, odd */
+    background-color: yellowgreen;
+}
